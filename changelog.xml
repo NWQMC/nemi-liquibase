@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<databaseChangeLog
+  xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+
+<!-- 
+<include file="newTables.sql" relativeToChangelogFile="true"/>
+<include file="newTriggers.sql" relativeToChangelogFile="true"/>
+<include file="dropTriggers.sql" relativeToChangelogFile="true"/>
+<include file="newPkg.sql" relativeToChangelogFile="true"/>
+<include file="newViews.sql" relativeToChangelogFile="true"/>
+-->
+<include file="protocolDDL.sql" relativeToChangelogFile="true"/>
+<include file="views.sql" relativeToChangelogFile="true"/>
+
+
+</databaseChangeLog>
